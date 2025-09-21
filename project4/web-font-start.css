@@ -1,0 +1,51 @@
+/* General setup */
+@font-face {
+    font-family: 'Kaushan Script';
+    src: url('KaushanScript-Regular.woff2') format('woff2'),
+        url('KaushanScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('AlexBrush-Regular.woff2') format('woff2'),
+        url('AlexBrush-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family:"Alex Brush";
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.2rem;
+  
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+  font-family:"Kaushan Script";
+  
+}
